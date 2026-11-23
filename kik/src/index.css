@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/font/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sora';
+  src: url('./assets/font/Sora-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ptc';
+  src: url('./assets/font/PTSansCaption-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-sora: "Sora", sans-serif;
+  --font-ptc: "ptc";
+  --font-cursive: cursive;
+}
+
+html, body {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
