@@ -1,5 +1,6 @@
 import CardTopi from "../components/CardTopi"
 import About3 from "../components/About3"
+import SchoolStatsBanner from "../components/SchoolStatsBanner"
 
 function About() {
     return (
@@ -19,10 +20,9 @@ function About() {
             </div>
             <About3 />
             <div className="flex items-center justify-center mt-3 max-md:flex-col ">
-                <CardTopi  title="Pendidikan berkualitas" text="pembelajaran berbasis kompetensi dan teknologi" />
-                <CardTopi  title="Pendidikan berkualitas" text="pembelajaran berbasis kompetensi dan teknologi" />
-                <CardTopi  title="Pendidikan berkualitas" text="pembelajaran berbasis kompetensi dan teknologi" />
+               <CardTopi/>
             </div>
+        <SchoolStatsBanner/>
         </div>
     )
 }

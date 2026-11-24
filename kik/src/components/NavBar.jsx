@@ -1,4 +1,5 @@
 import Logo_sekolah from '../assets/Logo_sekolah.png'
+import {Menu} from 'lucide-react'
 
 function NavBar() {
     return (
@@ -10,6 +11,9 @@ function NavBar() {
                 <div className="flex flex-col">
                     <h1 className="text-2xl text-white font-bold font-ptc">SMKN 5 Telkom</h1>
                     <p className="text-xl text-white font-inter">Banda Aceh</p>
+                </div>
+                <div>
+                    <Menu className="w-6 h-6 text-black cursor-pointer" />
                 </div>
             </nav>
         </header>

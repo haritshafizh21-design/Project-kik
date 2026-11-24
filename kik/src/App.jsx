@@ -4,13 +4,11 @@ import Footer from "./components/Footer"
 import sekolah from "./assets/sekolah.jpg"
 import About from "./page/about"
 
-
 function App() {
-
   return (
     <>
+      <main>
 
-      <main >
         <div className="bg-black">
           <ScrollExpand
             src={sekolah}
@@ -19,11 +17,14 @@ function App() {
             scrollHint="Scroll to explore"
             useWindowScroll
           >
-
             <Home />
           </ScrollExpand>
         </div>
-        <About />
+
+
+        <div className="bg-white text-black py-10">
+          <About />
+        </div>
       </main>
       <footer>
         <Footer />
