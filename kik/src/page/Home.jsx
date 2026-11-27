@@ -1,10 +1,10 @@
-import NavBar from "../components/Navbar"
+import NavBar from "../components/NavBar"
 
-function Home() {
+function Home({apakek}) {
     return (
         
         <div className='absolute inset-0 bg-linear-to-r from-indigo-950 via-indigo-950/40 to-transparent max-md:bg-indigo-950/50     h-screen '>
-            <NavBar/>
+            <NavBar click={apakek}/>
             <div className='p-8 flex flex-col gap-4 mt-26 max-md:mt-46' >
                 <div className='bg-violet-700 text-white w-1/6 max-md:w-1/2 rounded-2xl text-center'>
                     <p>

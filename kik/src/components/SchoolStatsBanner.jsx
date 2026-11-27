@@ -14,7 +14,7 @@ const SchoolStatsBanner = () => {
     {
       id: 2,
       icon: <img src={Teacher} alt="" width={59}/>,
-      value: '52 +',
+      value: '68 +',
       label: 'Guru',
     },
     {
@@ -26,7 +26,7 @@ const SchoolStatsBanner = () => {
   ];
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 my-8">
+    <div className="w-full max-w-7xl mx-auto px-4 my-8  ">
 
       <div
         className="relative overflow-hidden rounded-2xl bg-cover bg-center shadow-lg"
